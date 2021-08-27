@@ -1,0 +1,1 @@
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Learning Gatsby","date":"2020-08-24"},"html":"<p>I just learned some new skills!</p>\n<h2>Skills</h2>\n<ol>\n<li>Gatsby</li>\n<li>React</li>\n<li>GraphQL</li>\n</ol>"}},{"node":{"frontmatter":{"title":"React","date":"2021-08-23"},"html":"<p>Demo React Post</p>"}}]}}}
