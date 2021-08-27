@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  pathPrefix:"/gatsby-bootcamp",
   siteMetadata: {
     title: 'Andy Hopkins Profile in Gatsby/React',
     author: 'Andy Hopkins'
