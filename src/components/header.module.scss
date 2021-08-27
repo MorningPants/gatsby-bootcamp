@@ -1,0 +1,23 @@
+.header{
+    padding: 1rem 0 3rem;
+}
+
+.title{
+    color: #000000;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.navItem {
+    color: #999999;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.navItem:hover {
+    color: #666666;
+}
+
+.activeNavItem {
+    color: #333333
+}
