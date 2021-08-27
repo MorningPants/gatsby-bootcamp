@@ -10,7 +10,7 @@ const Contact = () => {
       <Head title="Contact"/>
     <h1>Contact</h1>
     <h2>andyghopkins@gmail.com</h2>
-    <h2><a href="https://github.com/morningpants" target="_blank">Github</a></h2>
+    <h2><a href="https://github.com/morningpants" target="_blank" rel="noreferrer">Github</a></h2>
     </Layout>
   </div>
 }

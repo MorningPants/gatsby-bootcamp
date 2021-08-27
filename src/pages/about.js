@@ -12,9 +12,10 @@ const About = () => {
       <Head title="About"/>
     <h1>About Me</h1>
     <h2>Dad, Programmer, Massage Therapist</h2>
+    <p>TODO: Write a bio!</p>
     <p><Link to="/contact">Contact me to hang out!</Link></p>
 
-    ![Andy Hopkins](../posts/Photo.jpg)
+    
     </Layout>
   </div>
   )
