@@ -22,7 +22,7 @@ const Header = () => {
                 </Link>
             </h1>
             <p>
-                <Link className={headerStyles.navItem}  activeClassName={headerStyles.activeNavItem}  to="/gatsby-bootcamp/">Home</Link> | <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/gatsby-bootcamp/about">About</Link> | <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/gatsby-bootcamp/blog">Blog</Link> | <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/gatsby-bootcamp/contact">Contact</Link>
+                <Link className={headerStyles.navItem}  activeClassName={headerStyles.activeNavItem}  to="/">Home</Link> | <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}  to="/about">About</Link> | <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link> | <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link>
          </p>
         </header>
 
