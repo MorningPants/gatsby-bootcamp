@@ -5,7 +5,6 @@
  */
 
 module.exports = {
-  pathPrefix:"",
   siteMetadata: {
     title: 'Andy Hopkins Profile in Gatsby/React',
     author: 'Andy Hopkins'
