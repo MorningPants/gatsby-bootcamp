@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <img
-        src="https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg"
+        src="https://www.theskyandthesea.com/images/sky_background.jpg"
         alt=""
         className={headerStyles.background}
       />
