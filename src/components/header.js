@@ -1,9 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
+import { useState, useEffect } from "react"
 
 import * as headerStyles from "./header.module.scss"
 
 const Header = () => {
+  const [scroll, setScroll] = useState(1)
+
+  useEffect(() => {
+    document.addEventListener("scroll", () => {
+      const scrollCheck = window.scrollY < 100
+      if (scrollCheck !== scroll) {
+        setScroll(scrollCheck)
+      }
+    })
+  })
 
   return (
     <header className={headerStyles.header}>
@@ -12,11 +23,13 @@ const Header = () => {
         alt=""
         className={headerStyles.background}
       />
-      <img
-        src="https://i.imgur.com/Bbb1HlB.png"
-        alt=""
-        className={headerStyles.image}
-      />
+      <div className={headerStyles.fixedHeight}>
+        <img
+          src="https://i.imgur.com/Bbb1HlB.png"
+          alt=""
+          className={scroll ? headerStyles.imageTop : [headerStyles.imageScroll, headerStyles.imageTop].join(' ')}
+        />
+      </div>
       <div className={headerStyles.card}>
         <h1>
           <Link className={headerStyles.title} to="">
