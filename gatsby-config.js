@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Andy Hopkins Profile in Gatsby/React',
+    title: "MorningPants' Profile",
     author: 'Andy Hopkins'
   },
   plugins: [

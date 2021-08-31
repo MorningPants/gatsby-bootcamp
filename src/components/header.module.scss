@@ -6,6 +6,11 @@
     color: #000000;
     font-size: 3rem;
     text-decoration: none;
+    text-align: center;
+}
+
+.links{
+    text-align: center;
 }
 
 .navItem {
@@ -21,3 +26,24 @@
 .activeNavItem {
     color: #333333
 }
+
+.background{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image{
+    display: block;
+    margin: auto;
+}
+
+.card{
+    background: #eeeeee;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 50px rgb(0 0 0 / 60%);
+  }
