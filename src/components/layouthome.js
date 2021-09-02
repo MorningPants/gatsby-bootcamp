@@ -1,15 +1,15 @@
 import React from "react"
 
-import Header from "./header"
+import HeaderHome from "./headerhome"
 import Footer from "./footer"
 import "../styles/index.scss"
 
 import * as layoutStyles from "./layout.module.scss"
 
-const Layout = props => {
+const LayoutHome = props => {
   return (
     <div className={layoutStyles.container}>
-      <Header />
+      <HeaderHome />
       <div className={layoutStyles.card}>
         <div className={layoutStyles.content}>{props.children}</div>
         <Footer />
@@ -19,4 +19,4 @@ const Layout = props => {
   )
 }
 
-export default Layout
+export default LayoutHome
