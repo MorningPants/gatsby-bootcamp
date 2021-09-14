@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <img
-        src="https://www.theskyandthesea.com/images/sky_background.jpg"
+        src="https://www.theskyandthesea.com/static/sky_background-a1b1eded2fe810be4bbd5efc4203f127.jpg"
         alt=""
         className={headerStyles.background}
       />

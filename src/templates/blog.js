@@ -31,8 +31,8 @@ query($slug: String!) {
 }`
 
 
-  const Blog = ({data}) => {
-    
+const Blog = ({data}) => {
+
     const options = {
       renderNode: {
         "embedded-asset-block": node => {
